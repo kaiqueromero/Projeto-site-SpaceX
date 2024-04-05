@@ -1,0 +1,61 @@
+.header {
+    font-size: 12px;
+    font-weight: bold;
+
+    #nav-item {
+        &:hover {
+            color: $link-hover;
+        }
+    }
+
+}
+.container00 {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrowDown {
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.logoPc {
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 35px;
+}
+
+#button{
+    padding: 15px 35px;
+    border: 2px solid white;
+   }
+
+   // Media Query
+
+@media (max-width: 405px) {
+    .logoPc {
+      width: 180px;
+      margin-top: 15px;
+    }
+    .footer {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 350px) {
+    .logoPc {
+      width: 150px;
+      margin-top: 15px;
+   }
+  } ;
+
+  @media (max-width: 510px) {
+    .downloadDesc {
+      button {
+        margin: 10px 0px;
+      }
+    }
+  }
+  
